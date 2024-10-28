@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		77E4FAE42CCC47AD001FF8DB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 77E4FAE32CCC47A7001FF8DB /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		770AE5532CCA0BB600A9AC06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		770AE5422CCA0BB300A9AC06 /* Fetch_Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fetch_Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		770AE5522CCA0BB600A9AC06 /* Fetch_RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fetch_RecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770AE55C2CCA0BB600A9AC06 /* Fetch_RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fetch_RecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E4FAE32CCC47A7001FF8DB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +43,6 @@
 		770AE5552CCA0BB600A9AC06 /* Fetch_RecipesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Fetch_RecipesTests;
-			sourceTree = "<group>";
-		};
-		770AE55F2CCA0BB600A9AC06 /* Fetch_RecipesUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Fetch_RecipesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		770AE5392CCA0BB300A9AC06 = {
 			isa = PBXGroup;
 			children = (
+				77E4FAE32CCC47A7001FF8DB /* README.md */,
 				770AE5442CCA0BB300A9AC06 /* Fetch_Recipes */,
 				770AE5552CCA0BB600A9AC06 /* Fetch_RecipesTests */,
-				770AE55F2CCA0BB600A9AC06 /* Fetch_RecipesUITests */,
 				770AE5432CCA0BB300A9AC06 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,9 +153,6 @@
 			dependencies = (
 				770AE55E2CCA0BB600A9AC06 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				770AE55F2CCA0BB600A9AC06 /* Fetch_RecipesUITests */,
-			);
 			name = Fetch_RecipesUITests;
 			packageProductDependencies = (
 			);
@@ -212,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E4FAE42CCC47AD001FF8DB /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,8 +428,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
